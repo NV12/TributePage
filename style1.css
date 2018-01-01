@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+@font-face {
+    font-family: 'voice_activated_bbregular';
+    src: url('fonts/voiceactivatedbb_reg-webfont.woff2') format('woff2'),
+         url('fonts/voiceactivatedbb_reg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'voice_activated_bbitalic';
+    src: url('fonts/voiceactivatedbb_ital-webfont.woff2') format('woff2'),
+         url('fonts/voiceactivatedbb_ital-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'voice_activated_bbbold_italic';
+    src: url('fonts/voiceactivatedbb_boldital-webfont.woff2') format('woff2'),
+         url('fonts/voiceactivatedbb_boldital-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'voice_activated_bbbold';
+    src: url('fonts/voiceactivatedbb_bold-webfont.woff2') format('woff2'),
+         url('fonts/voiceactivatedbb_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1{
+    font-family: voice_activated_bbregular;
+    font-size: 80px;
+    color: #e18345;
+    margin-bottom: 0px;
+}
+h2{
+    font-family: voice_activated_bbregular;
+    font-size: 35px;
+    color: #de996c;
+    margin-top: 0px; 
+}
+
+
+body{
+	background-image: url("G4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.form_1{
+    width: 30%;
+    
+    /*background-color: transparent; */
+    /*padding: 30px;
+    padding-left: 0px;
+    padding-top: 20%;*/
+    /* position: relative; */
+    /*text-align: left;*/
+    margin: 0 auto;
+    /*margin-top: 10px;*/
+}
+
+.writing{
+    color: #4CAF50;
+    font-family: "Rogoto", sans-serif;
+    font-size: 20px;
+}
+
+.login-page{
+   /* padding: 1% 0 0 ;*/
+    margin-top: 4%;
+    margin-left: 2%;
+}
+
+.image{
+    /*padding-left: 50px;
+    padding-top: 70px;
+
+    */
+    
+    width:28%;height:80%;
+    /*margin-bottom: 10px;*/
+}
